@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b9fd21d-e76e-4613-9b08-0dc886a36576" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phoneManagementSystem.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/Exception/UserExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/contollers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/data/models/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/data/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/data/repository/ContactRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/data/repository/ContactRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/data/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/data/repository/UserRepositoryImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/dtos/reponses/ContactResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/dtos/reponses/RegisterUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/dtos/requests/ContactRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/dtos/requests/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/services/ContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/services/ContactServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/services/UserServiceImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/utils/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/utils/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ace/phoneManagementSystem/data/repository/ContactRepositoryImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ace/phoneManagementSystem/data/repository/UserRepositoryImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ace/phoneManagementSystem/service/ContactServiceImplementationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ace/phoneManagementSystem/service/UserServiceImplementationTest.java" afterDir="false" />
+    <list default="true" id="0b9fd21d-e76e-4613-9b08-0dc886a36576" name="Changes" comment="Contact Management System">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ace/phoneManagementSystem/utils/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ace/phoneManagementSystem/utils/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -176,8 +150,16 @@
       <option name="presentableId" value="Default" />
       <updated>1659125720135</updated>
       <workItem from="1659125722065" duration="17202000" />
-      <workItem from="1659177931793" duration="23533000" />
+      <workItem from="1659177931793" duration="24745000" />
     </task>
+    <task id="LOCAL-00001" summary="Contact Management System">
+      <created>1659220200443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659220200443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Contact Management System" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Management System" />
   </component>
 </project>

@@ -15,7 +15,7 @@ public class Main {
 
     private static void displayMainMenu() {
         String prompt = """
-                    WELCOME TO FAKE CALLER
+                    WELCOME TO FAKE CALLER APP
                 1 -> Create an Account
                 2 -> Add contact to a user
                 3 -> Find contact belonging to a user
